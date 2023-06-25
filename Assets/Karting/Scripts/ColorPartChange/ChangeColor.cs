@@ -55,7 +55,7 @@ public class ChangeColor : MonoBehaviour
         }
 
         myColor = new Color(rFloat, gFloat, bFloat);
-        rend.material.color = myColor;
+//        rend.material.color = myColor;
     }
 
 
