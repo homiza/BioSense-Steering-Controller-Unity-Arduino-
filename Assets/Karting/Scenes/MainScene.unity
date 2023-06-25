@@ -1333,6 +1333,7 @@ GameObject:
   - component: {fileID: 115243634}
   - component: {fileID: 115243636}
   - component: {fileID: 115243635}
+  - component: {fileID: 115243637}
   m_Layer: 5
   m_Name: PressureValue
   m_TagString: Untagged
@@ -1457,6 +1458,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115243633}
   m_CullTransparentMesh: 1
+--- !u!114 &115243637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115243633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a5fd12c0ceb6d40aee9155fcb58e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fValue: 0
+  serialController: {fileID: 0}
+  PressureValue: {fileID: 0}
+  SteeringValue: {fileID: 0}
+  PulseValue: {fileID: 0}
 --- !u!1001 &119561715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14563,7 +14581,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1299656338}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1299656341
+--- !u!114 &1299656343
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14572,9 +14590,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1299656340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61be72f567b3c644bb8bcdda9a004cb5, type: 3}
+  m_Script: {fileID: 11500000, guid: 41a5fd12c0ceb6d40aee9155fcb58e8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fValue: 0
+  serialController: {fileID: 0}
+  PressureValue: {fileID: 115243635}
+  SteeringValue: {fileID: 1340931151}
+  PulseValue: {fileID: 340246066}
 --- !u!1001 &1304724375
 PrefabInstance:
   m_ObjectHideFlags: 0
