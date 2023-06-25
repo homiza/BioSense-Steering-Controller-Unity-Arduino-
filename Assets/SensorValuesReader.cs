@@ -43,6 +43,7 @@ public class SensorValuesReader : MonoBehaviour
            
             PressureValue.text = elements[0];
             SteeringValue.text = elements[1];
+            PulseValue.text = elements[2];
             //float z = float.Parse(elements[2]);
          int x = 0;
          int.TryParse(PressureValue.text, out x);
